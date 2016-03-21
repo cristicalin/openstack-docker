@@ -1,4 +1,4 @@
-FROM mos/base-api:7.0
+FROM mos/base-api:6.1
 MAINTAINER Cristian Calin <cristian.calin@orange.com>
 
 EXPOSE 5000 35357
@@ -11,8 +11,9 @@ ADD nginx /etc/nginx
 
 RUN /root/scripts/stage-01.sh
 
+# 6.1 doesn't supply a separate GPG key so we need force-yes
 RUN apt-get update && \
-    apt-get -y install \
+    apt-get -y --force-yes install \
 	keystone \
 	python-keystone
 

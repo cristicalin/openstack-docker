@@ -1,4 +1,4 @@
-FROM cristicalin/mos-base-api:9.0
+FROM cristicalin/mos-base-api:7.0
 MAINTAINER Cristian Calin <cristian.calin@orange.com>
 
 EXPOSE 5000 35357
@@ -19,8 +19,10 @@ RUN apt-get update && \
 	nova-cert \
 	nova-common \
 	nova-conductor \
+	nova-console \
 	nova-consoleauth \
 	nova-consoleproxy \
+	nova-objectstore \
 	nova-scheduler
 
 RUN /root/scripts/stage-02.sh

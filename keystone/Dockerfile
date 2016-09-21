@@ -1,4 +1,4 @@
-FROM mos/base-api:latest
+FROM cristicalin/mos-base-api:9.0
 MAINTAINER Cristian Calin <cristian.calin@orange.com>
 
 EXPOSE 5000 35357

@@ -1,3 +1,0 @@
-deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/8.0 mos8.0 main restricted
-deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/8.0 mos8.0-updates main restricted
-deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/8.0 mos8.0-security main restricted

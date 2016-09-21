@@ -1,0 +1,3 @@
+deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/9.0 mos9.0 main restricted
+deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/9.0 mos9.0-updates main restricted
+deb http://fuel-repository.mirantis.com/mos-repos/ubuntu/9.0 mos9.0-security main restricted

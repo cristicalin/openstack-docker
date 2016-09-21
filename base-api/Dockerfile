@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 MAINTAINER Cristian Calin <cristian.calin@orange.com>
 
 ENV DEBIAN_FRONTEND noninteractive
